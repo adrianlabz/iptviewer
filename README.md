@@ -50,23 +50,6 @@ A Windows desktop IPTV player and playlist manager built with PySide6 and libmpv
 - Toast notifications
 - Remembers window size, volume, sidebar width, and theme
 
-## Requirements
-
-- Python 3.10+
-- Windows (currently; macOS/Linux possible with appropriate libmpv binary)
-- `mpv-2.dll` in the project root (Windows libmpv binary)
-
-## Setup
-
-```bash
-# Create and activate virtual environment
-python -m venv venv
-venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
 ### Dependencies
 
 | Package | Purpose |
@@ -78,13 +61,6 @@ pip install -r requirements.txt
 ### libmpv
 
 The application requires `mpv-2.dll` (libmpv) in the project directory for video playback. You can obtain it from [mpv.io](https://mpv.io/installation/) or [sourceforge mpv builds](https://sourceforge.net/projects/mpv-player-windows/files/libmpv/).
-
-## Usage
-
-```bash
-venv\Scripts\activate
-python main.py
-```
 
 ### Keyboard Shortcuts
 
@@ -106,13 +82,6 @@ All application data is stored in `%APPDATA%\iptviewer\`:
 | `xmltv_*.xml` | Cached EPG data |
 | `logs/iptviewer.log` | Rotating log files |
 
-## Running Tests
-
-```bash
-venv\Scripts\activate
-python -m pytest tests/ -v
-```
-
 ## License
 
 Copyright (C) 2025 Adrianlabz
@@ -129,3 +98,4 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 | [PySide6](https://www.qt.io/) | LGPL v3 |
 | [python-mpv](https://github.com/jaseg/python-mpv) | AGPL v3 |
 | [Requests](https://github.com/psf/requests) | Apache 2.0 |
+
