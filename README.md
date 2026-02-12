@@ -99,4 +99,5 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 | [python-mpv](https://github.com/jaseg/python-mpv) | AGPL v3 |
 | [Requests](https://github.com/psf/requests) | Apache 2.0 |
 
+![VirusTotal Scan](https://github.com/adrianlabz/iptviewer/actions/workflows/released.yml/badge.svg)
 
