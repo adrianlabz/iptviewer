@@ -1,6 +1,6 @@
 # IPTViewer
 
-A Windows desktop IPTV player and playlist manager built with PySide6 and libmpv.
+A Windows and MacOS desktop IPTV player and playlist manager built with PySide6 and libmpv.
 
 ## Features
 
@@ -100,4 +100,5 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 | [Requests](https://github.com/psf/requests) | Apache 2.0 |
 
 ![VirusTotal Scan](https://github.com/adrianlabz/iptviewer/actions/workflows/released.yml/badge.svg)
+
 
