@@ -18,7 +18,7 @@ jobs:
           vt_api_key: ${{ secrets.VT_API_KEY }}
           # Monitors both Windows and Mac installers
           files: |
-            *.exe
-            *.dmg
+            ./*.exe
+            ./*.dmg
           # This adds the VT report link to your GitHub Release description
           update_release_body: true
